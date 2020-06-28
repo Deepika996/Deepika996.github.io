@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./stylem.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -13,29 +15,29 @@
     <section class="box1" id="home">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg  navbar-light">
-        <a class="navbar-brand" href="#">Manomay</a>
+        <a class="navbar-brand" style="color:#023e8a; font-size:2.5rem;" href="#">Manomay</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="#navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" style="color:#023e8a; font-size:1.10rem;">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About us">About us</a>
+              <a class="nav-link" href="#About us" style="color:#023e8a; font-size:1.10rem">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Consulting">Consulting</a>
+              <a class="nav-link" href="#Consulting" style="color:#023e8a; font-size:1.10rem">Consulting</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Insurtech">Insurtech</a>
+              <a class="nav-link" href="#Insurtech" style="color:#023e8a; font-size:1.10rem">Insurtech</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Team">Team</a>
+              <a class="nav-link" href="#Team" style="color:#023e8a; font-size:1.10rem">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Career">Career & Contact</a>
+              <a class="nav-link" href="#Career" style="color:#023e8a; font-size:1.10rem">Career & Contact</a>
             </li>
           </ul>
         </div>
@@ -72,13 +74,44 @@
    <p>
      Combination of Deep P&C Insurance Domain, Technology Vendor Market and InsurTech Expertise, global level, our services and solutions include
    </p>
-   <p>
-     <strong>Consulting Services :</strong> With business technology liaison as the Key Emphasis,our Consulting Services span across the entire life cycle of the IT Projects, from initial strategy to final completion of the solution and measurement of success. Services include Business-technology advisory as in IT Strategy Creation, Vendor Selection, Business Process Re/Design, Health Checks for Project Progress, ROI Determination and E2E Implementation for major Technology Projects.
-   </p>
-   <p>
-    <strong>  InsurTech Products :</strong> Under the brand “MANTRA” (that stands for empowerment, innovation, satisfaction), Our InsurTech Product Suite provides a layer of innovation, around current IT Platform/s, for deeper customer satisfaction, competitive positioning and for offering capabilities that are not available via current technology platform(s). The technology foundation for Mantra is the right combination of emerging technologies – Artificial Intelligence, Augmented Reality, Machine Learning, Deep Learning, Robotic Process Automation, Analytics and IoT, to name a few.
-   </p>
   </div>
+
+  <div id="accordion">
+    <div class ="row">
+      <div class="col-lg-6">
+  <div class="card" style="background-color:#90e0ef;">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0" style="style="padding-top:0px; color:#03045e;">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Consulting Services
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        With business technology liaison as the Key Emphasis,our Consulting Services span across the entire life cycle of the IT Projects, from initial strategy to final completion of the solution and measurement of success. Services include Business-technology advisory as in IT Strategy Creation, Vendor Selection, Business Process Re/Design, Health Checks for Project Progress, ROI Determination and E2E Implementation for major Technology Projects.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-lg-6">
+  <div class="card" style="background-color:#90e0ef;">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0" style="padding-top:0px; color:#03045e;">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          InsurTech Products
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+         Under the brand “MANTRA” (that stands for empowerment, innovation, satisfaction), Our InsurTech Product Suite provides a layer of innovation, around current IT Platform/s, for deeper customer satisfaction, competitive positioning and for offering capabilities that are not available via current technology platform(s). The technology foundation for Mantra is the right combination of emerging technologies – Artificial Intelligence, Augmented Reality, Machine Learning, Deep Learning, Robotic Process Automation, Analytics and IoT, to name a few.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -87,7 +120,7 @@
 
 <section class="box3" id="Consulting">
   <div class="container-fluid">
-    <h1> CONSULTING</h1>
+    <h1><center>CONSULTING</center></h1>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
 
@@ -104,13 +137,11 @@
         <div class="carousel-item">
           <div class="Strategy">
           <div class="row">
-           <div class="col-lg-12 mx-auto" >
+           <div class="col-lg-8 mx-auto">
              <img src=".\images\strategy.PNG" class="img-fluid" alt="Consulting" style="border-radius:100%">
            </div>
-         </div>
-         <div class="row">
-          <div class="col-lg-12 " >
-        <h5><a href="http://manomay.biz/strategic.html">IT SYSTEMS REVIEW AND STRATEGY CREATION</strong></a></h5>
+           <div class="col-lg-4" >
+        <h5><a href="http://manomay.biz/strategic.html">🔹IT SYSTEMS REVIEW AND STRATEGY CREATION</strong></a></h5>
             </div>
          </div>
         </div>
@@ -119,39 +150,27 @@
       <div class="carousel-item">
         <div class="prepare">
         <div class="row">
-         <div class="col-lg-12 mx-auto" >
+         <div class="col-lg-8 mx-auto" >
            <img src=".\images\prepare.PNG" class="img-fluid" alt="Consulting" style="border-radius:100%">
          </div>
-       </div>
-       <div class="row">
-        <div class="col-lg-6 " >
-        <h5><a href="http://manomay.biz/preparation.html"> SOFTWARE SELECTION </a></h5>
-          </div>
-          <div class="col-lg-6 " >
-            <h5><a href="http://manomay.biz/preparation.html">BUSINESS PROCESS RE/DESIGN </h5></a>
+        <div class="col-lg-4">
+      <h5><a href="http://manomay.biz/preparation.html">🔹SOFTWARE SELECTION </a></h5>
+          <p><h5><a href="http://manomay.biz/preparation.html">🔹BUSINESS PROCESS RE/DESIGN </h5></a></p>
             </div>
        </div>
-      </div>
+     </div>
     </div>
 
             <div class="carousel-item">
               <div class="implement">
                  <div class="row">
-                    <div class="col-lg-12 mx-auto" >
+                    <div class="col-lg-8 mx-auto" >
                  <img src=".\images\implement.PNG" class="img-fluid" alt="Consulting" style="border-radius:100%">
                     </div>
-                 </div>
-          <div class="row">
-              <div class="col-lg-6 " >
-            <h5><a href="http://manomay.biz/implementation.html">BUSINESS ANALYSIS </a></h5>
-              </div>
-                <div class="col-lg-6 " >
-                  <h5><a href="http://manomay.biz/implementation.html"> BUSINESS SCENARIO BASED QUALITY ASSURANCE </a></h5>
-                </div>
-          </div>
-                  <div class="row">
-                  <div class="col-lg-6 mx-auto" >
-                    <h5><a href="http://manomay.biz/implementation.html"> PRODUCT MANAGEMENT AND CONFIGURATION </a></h5>
+              <div class="col-lg-4 " >
+    <h5><a href="http://manomay.biz/implementation.html">🔹BUSINESS ANALYSIS </a></h5>
+    <h5><a href="http://manomay.biz/implementation.html">🔹BUSINESS SCENARIO BASED QUALITY ASSURANCE </a></h5>
+    <h5><a href="http://manomay.biz/implementation.html">🔹PRODUCT MANAGEMENT AND CONFIGURATION </a></h5>
                   </div>
                   </div>
             </div>
@@ -162,13 +181,11 @@
           <div class="carousel-item">
             <div class="measure">
             <div class="row">
-             <div class="col-lg-12 mx-auto" >
+             <div class="col-lg-8 mx-auto" >
                <img src=".\images\measure.PNG" class="img-fluid" alt="Consulting" style="border-radius:100%">
              </div>
-           </div>
-           <div class="row">
-            <div class="col-lg-12 " >
-              <h5><a href="http://manomay.biz/measure.html">ENTERPRISE IT HEALTH CHECKS </a></h5>
+            <div class="col-lg-4 " >
+              <h5><a href="http://manomay.biz/measure.html">🔹ENTERPRISE IT HEALTH CHECKS </a></h5>
               </div>
            </div>
           </div>
@@ -178,27 +195,20 @@
         <div class="carousel-item">
           <div class="manage">
              <div class="row">
-              <div class="col-lg-12 mx-auto">
+              <div class="col-lg-8 mx-auto">
              <img src=".\images\manage.PNG" class="img-fluid" alt="Consulting" style="border-radius:100%">
-              </div>
-             </div>
-        <div class="row">
-          <div class="col-lg-6 " >
-            <h5><a href="http://manomay.biz/manage.html">	PROJECT MANAGEMENT </a></h5>
           </div>
-            <div class="col-lg-6 " >
-              <h5><a href="http://manomay.biz/manage.html"> PROJECT HEALTH CHECKS </a></h5>
+          <div class="col-lg-4 " >
+            <h5><a href="http://manomay.biz/manage.html">🔹PROJECT MANAGEMENT </a></h5>
+              <h5><a href="http://manomay.biz/manage.html">🔹PROJECT HEALTH CHECKS </a></h5>
+                <h5><a href="http://manomay.biz/manage.html">🔹VENDOR MANAGMENT </a></h5>
             </div>
         </div>
-              <div class="row">
-              <div class="col-lg-6 mx-auto" >
-                <h5><a href="http://manomay.biz/manage.html"> VENDOR MANAGMENT </a></h5>
               </div>
               </div>
          </div>
-        </div>
 
-      </div>
+
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -209,7 +219,6 @@
       </a>
 
   </div>
-
 </section>
 <section class="box4" id="Insurtech">
   <div class="container-fluid">
@@ -221,11 +230,11 @@
 
 <h6>Seek for Mantra:</h6>
 <p>
-1. When the customer demands are spiralling and market positioning becoming a continuing concern
-2. When my Current IT does not cater to the internal & external demands
-3. When ‘TECHNOLOGY’ change options – Replace, Extend, Add, Delete – are expensive & difficult to measure
-4. When it is difficult to decide the way forward
-5. When my “UNANSWERED QUESTIONS” cost me my CUSTOMERS & POSITIONING
+ When the customer demands are spiralling and market positioning becoming a continuing concern
+ When my Current IT does not cater to the internal & external demands
+ When ‘TECHNOLOGY’ change options – Replace, Extend, Add, Delete – are expensive & difficult to measure
+ When it is difficult to decide the way forward
+ When my “UNANSWERED QUESTIONS” cost me my CUSTOMERS & POSITIONING
 Then it's time to seek for MANTRA.
 </p>
 <h6>Our Approach:</h6>
@@ -237,82 +246,74 @@ Our focus is to understand how your current business is transacted, how does the
 <div class="row">
   <div class="col-lg-6">
     <h6>From Customer context:</h6>
-   <p> 1. To be easily accessible </p>
-  <p> 2. To make them self-sufficient </p>
-  <p>3. To provide quick & context specific support & updates </p>
-    <p> 4. To be available through multiple channels </p>
-    <p> 5. To provide consistent experience </p>
-    <p> 6. To empower and engage </p>
-    <p> 7. To be transparent on the status/support</p>
+    <p>🔹 To be easily accessible </p>
+    <p>🔹 To make them self-sufficient </p>
+    <p>🔹 To provide quick & context specific support & updates </p>
+    <p>🔹 To be available through multiple channels </p>
+    <p>🔹 To provide consistent experience </p>
+    <p>🔹 To empower and engage </p>
+    <p>🔹 To be transparent on the status/support</p>
 </div>
 <div class="col-lg-6">
   <h6> From Company context: </h6>
-<p> 1.To provide right insights by context</p>
-<p>2. To provide right information at right time</p>
-<p>3. To ensure right use of skills & manage workload</p>
-<p>4. To serve by context – different customer segments</p>
-<p>5. To be able to connect right across myriad IT Systems </p>
+<p>🔹 To provide right insights by context</p>
+<p>🔹 To provide right information at right time</p>
+<p>🔹 To ensure right use of skills & manage workload</p>
+<p>🔹 To serve by context – different customer segments</p>
+<p>🔹 To be able to connect right across myriad IT Systems </p>
 </div>
 </div>
 </div>
 <h3>OUR PRODUCTS</h3>
-<div class="pro">
 <div class="card-deck">
- <div class="card" style="width: 10%;">
-   <img class="mantra" src=".\images\digitalization.PNG" alt="digitalization" style="height:"70px;width:"70px;">
+ <div class="card" style="width: auto; text-align:center">
+   <img class="mantra1 mx-auto d-block" src=".\images\digitalization.PNG" alt="digitalization" class="rounded" style="height:70px; width:70px; paddding-top:2%;" >
    <div class="card-body">
      <h6>Mantra for Digitization</h6>
-     <p class="card-text">Still dealing with paper? Go green with MfD from scanning,intelligent digitization, approvals to automatic updates to back office IT.</p>
- <a href="http://manomay.biz/digitization.html" class="btn btn-primary">Know more  -> </a>
+ <a href="http://manomay.biz/digitization.html" class="btn btn-primary">Know more</a>
    </div>
 </div>
 
-<div class="card" style="width: 10%;">
-   <img class="mantra" src=".\images\test.PNG" alt="digitalization" >
+<div class="card" style="width: auto; text-align:center">
+   <img class="mantra1 mx-auto d-block" src=".\images\test.PNG" alt="digitalization" style="height:70px; width:70px; paddding-top:2%;" >
    <div class="card-body">
      <h6>Mantra for Test</h6>
-     <p class="card-text">Much beyond traditional Automation – System Agnostic, No Scripting, Stealth & Auto heal.</p>
- <a href="http://manomay.biz/MantraTest.html" class="btn btn-primary">Know more  -> </a>
+ <a href="http://manomay.biz/MantraTest.html" class="btn btn-primary">Know more</a>
  </div>
 </div>
 
-<div class="card" style="width: 10%;">
-       <img class="mantra" src=".\images\claims.PNG" alt="claims" >
+<div class="card" style="width: auto; text-align:center" >
+       <img class="mantra1 mx-auto d-block" src=".\images\claims.PNG" alt="claims" style="height:70px; width:70px; paddding-top:2%;" >
        <div class="card-body">
          <h6>Mantra for Claims</h6>
-         <p class="card-text">Go forward for a great Personalized Customer Centricity & Satisfaction with MfC for Claims.</p>
-     <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more  -> </a>
+     <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more</a>
      </div>
    </div>
 
-   <div class="card" style="width: 10%;">
-          <img class="mantra" src=".\images\DDD.PNG" alt="DDD" >
+   <div class="card" style="width: auto; text-align:center">
+          <img class="mantra1 mx-auto d-block" src=".\images\DDD.PNG" alt="DDD" style="padding-top:3%;">
           <div class="card-body">
             <h6>Mantra for Mantra for Data Driven Decisioning</h6>
-            <p class="card-text">Strengthen your decisioning insights with MfDDD’s most advanced techniques for classification, analysis and filtering..</p>
-        <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more  -> </a>
+        <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more</a>
         </div>
       </div>
 
-      <div class="card" style="width: 10%;">
-             <img class="mantra" src=".\images\online.PNG" alt="online" >
+      <div class="card" style="width: auto; text-align:center">
+             <img class="mantra1 mx-auto d-block" src=".\images\online.PNG" alt="online" style="paddding-top:5%;" >
              <div class="card-body">
                <h6>Mantra for Online</h6>
-               <p class="card-text">Redefine user experience, communication and integration with MfO – Lightweight, Agnostic & Secure!</p>
-           <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more -> </a>
+<a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more</a>
            </div>
          </div>
 
-         <div class="card" style="width: 10%;">
-                <img class="mantra" src=".\images\DA.PNG" alt="DA" >
+         <div class="card" style="width: auto; text-align:center">
+                <img class="mantra1 mx-auto d-block" src=".\images\DA.PNG" alt="DA" style="paddding-top:2%;">
                 <div class="card-body">
                   <h6>Mantra for Digital Adaptation</h6>
-                  <p class="card-text">Time for holistic focus for data correctness, consistency & completeness for better decision making through MfDA .</p>
-              <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more  -> </a>
+              <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more</a>
               </div>
             </div>
 
-</div>
 </div>
 </div>
 </section>
@@ -322,24 +323,24 @@ Our focus is to understand how your current business is transacted, how does the
 <div class="row">
 <div class="col-lg-6">
   <p>In the true spirit of our Mantra “Align IT Right”, our Consultants bring in Property & Casualty Insurance specific Business and Technology Expertise through:</p>
-  <p> International IT Consulting Experience - predominantly in Bermuda, Caribbean Islands, Europe and North American Markets </p>
-  <p> Experience in all lines of P&C Business</p>
-  <p> Experience in all P&C Insurance business activities - both core & horizontal operations </p>
-  <p> Market Research on technology trends and influence on business; competitive positioning </p>
-  <p> Certifications in Industry Best Enterprise P&C Insurance IT Systems</p>
-  <p> AICPCU Insurance Certifications</p>
+  <p>🔹 International IT Consulting Experience - predominantly in Bermuda, Caribbean Islands, Europe and North American Markets </p>
+  <p>🔹 Experience in all lines of P&C Business</p>
+  <p>🔹 Experience in all P&C Insurance business activities - both core & horizontal operations </p>
+  <p>🔹 Market Research on technology trends and influence on business; competitive positioning </p>
+  <p>🔹 Certifications in Industry Best Enterprise P&C Insurance IT Systems</p>
+  <p>🔹 AICPCU Insurance Certifications</p>
 </div>
 
 <div class="col-lg-6">
   <p> Our Consultants have extensive IT Systems Experience spanning across: </p>
-<p>Product design & definition </p>
-<p>Transaction Processing: Policy Administration, Billing, Claims, Reinsurance & Accounting </p>
-<p>Customer Relationship Management</p>
-<p>Distribution, Portals & Service</p>
-<p>Workflow & Collaboration</p>
-<p>Business Intelligence & Analytics</p>
-<p>Enterprise Content Management</p>
-<p>Data Exchange & Integration</p>
+<p>🔹 Product design & definition </p>
+<p>🔹 Transaction Processing: Policy Administration, Billing, Claims, Reinsurance & Accounting </p>
+<p>🔹 Customer Relationship Management</p>
+<p>🔹 Distribution, Portals & Service</p>
+<p>🔹 Workflow & Collaboration</p>
+<p>🔹 Business Intelligence & Analytics</p>
+<p>🔹 Enterprise Content Management</p>
+<p>🔹 Data Exchange & Integration</p>
 </div>
 </div>
   </div>
@@ -369,11 +370,13 @@ Our focus is to understand how your current business is transacted, how does the
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Cover Letter</textarea>
 
       <div class="form-group" style="padding-top:2%">
-    <label for="exampleFormControlFile1">file input</label>
+    <label for="exampleFormControlFile1">File input</label>
     <input type="file" class="form-control-file" id="exampleFormControlFile1">
     <div class="su" style="padding-top:5%">
-    <button type="submit" class="btn btn-primary" href="mailto:deepikabharatula@gmail.com">Submit</a></button></p>
 
+    <form method="post" action="mailto:youremail@youremail.com" >
+ <button type="submit" class="btn btn-primary">Submit</button>
+</form>
       </div>
   </div>
 </div>
@@ -393,31 +396,26 @@ Sagar Society, Sri Nagar Colony, Banjara Hills,
 Hyderabad,
 Telangana, INDIA - 500 034
 <div class="call" style="padding-top:3%">
-  <p><Strong> Call Us :</Strong> </p>
+  <p><Strong>📱Call Us:</Strong> </p>
   <p>India Tel :	+ 040-23555820</p>
    <p>USA Tel :	+ 1 813 699 4222,</p>
   <p style="padding-left:11%">+ 1 813 333 2725 </p>
-  <p><Strong> Get in touch :</Strong> info@manomay.biz</p>
+  <p><Strong>✉Get in touch :</Strong> info@manomay.biz</p>
 <p style="padding-left:17%">
   mantra@manomay.biz
 </p>
 </div>
 </div>
-</div>
-
-
-
-<section id="footer">
+<section class="box7" id="footer">
   <class="brand">
-  <i class="fa fa-facebook-square" aria-hidden="true"></i>
-  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-  <i class="fa fa-twitter" aria-hidden="true"></i>
-  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  <a href="https://www.facebook.com/pages/Manomay-Consultancy-Services-India-Pvt-Ltd/488271257966898" style="color:#ade8f4;" "title="Like us on facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="#" style="color:#ade8f4; "title="Youtube"><i class="fab fa-youtube"></i>
+  <a href="https://twitter.com/ManomayInfo" style="color:#ade8f4;" title="Follow us on Twitter"> <i class="fab fa-twitter"></i></a>
+  <a href="http://www.linkedin.com/company/manomay-consultancy-services-india-pvt-ltd?trk=biz-companies-cym" style="color:#ade8f4;" title="Connect with us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
 <p>
   © 2019 Manomay Consultancy Services (India) Pvt. Ltd. All rights reserve
 </class>
   </section>
   </section>
-</p>
   </body>
 </html>
