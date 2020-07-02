@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./stylem.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Serif&family=Yellowtail&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -42,10 +42,10 @@
           </ul>
         </div>
       </nav>
-      <div class="logoM">
+      <div class="logo">
       <div class="row">
       <div class="col-lg-12">
-    <img src=".\images\mcs4.jpg" class="img-fluid" alt="Manomay" style="width:100%; height:475px;">
+    <img src=".\images\manomay.png" class="img-fluid" alt="Manomay style="width=100%; height:300px;">
       </div>
       </div>
      </div>
@@ -66,9 +66,7 @@
       <div class="Aboutcontent">
         <div class="row">
           <div class="col-lg-12">
-            <div class="heading">
-              <h2><center>ABOUT US</center></h2>
-            </div>
+   <h2><center>ABOUT US</center></h2>
    <p>We are an IT Consulting & InsureTech Firm exclusively for the Property & Casualty Insurance Industry</p>
    <p>
      Our mantra is Align IT right – As Insurance Company Representatives, we specialize in Technology Services & Solutioning – around the Current Challenges, Changing Market & Regulatory Conditions, Evolving Customer Demands and Technology Advancements – spanning across Business and Technology! We understand each Company is unique and work with you on what is most important for you – the one that distinguishes you from others – be it Customer Centricity, Offerings, Services, Market, Growth, Positioning, Team, Partners, Technology & beyond.
@@ -120,11 +118,9 @@
 </section>
 
 
-<section class="box3" id="Consulting" style="padding-top:10px;">
+<section class="box3" id="Consulting">
   <div class="container-fluid">
-    <div class="heading">
     <h2><center>CONSULTING</center></h2>
-  </div>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
 
@@ -226,9 +222,9 @@
 </section>
 <section class="box4" id="Insurtech">
   <div class="container-fluid">
-    <div class="heading">
   <h2><center>MANTRA</center></h2>
-</div>
+
+
 <p>Our InsurTech product “MANTRA” premise is to provide simple, automated answers to Insurance companies’ complex situations such as legacy technology pull, rip & replace challenges, indecisiveness about enterprise IT, changing customer expectations & positioning, people & process challenges, integrations & associations etc.</p>
 <p>With the right combination different new  generation technologies - Artificial Intelligence, Augmented Reality, Robotic Process Automation, Machine Learning, Image Analysis, Mantra helps provide various technology solutions across the entire insurance value chain – with customer  centricity, competitive positioning, ease of use, ease of integration/communication as the primary drivers.</p>
 
@@ -303,7 +299,7 @@ Our focus is to understand how your current business is transacted, how does the
       </div>
 
       <div class="card" style="width: auto; text-align:center">
-             <img class="mantra1 mx-auto d-block" src=".\images\online.PNG" alt="online" style="paddding-top:10%;" >
+             <img class="mantra1 mx-auto d-block" src=".\images\online.PNG" alt="online" style="paddding-top:5%;" >
              <div class="card-body">
                <h6>Mantra for Online</h6>
 <a href="https://manomay.biz/mantra.html" class="btn btn-primary">Know more</a>
@@ -323,9 +319,7 @@ Our focus is to understand how your current business is transacted, how does the
 </section>
 <section class="box5" id="Team">
   <div class="container-fluid">
-    <div class="heading">
 <h2><center>TEAM</center></h2>
-</div>
 <div class="row">
 <div class="col-lg-6">
   <p>In the true spirit of our Mantra “Align IT Right”, our Consultants bring in Property & Casualty Insurance specific Business and Technology Expertise through:</p>
@@ -351,14 +345,12 @@ Our focus is to understand how your current business is transacted, how does the
 </div>
   </div>
 </section>
-<section class="box6" id="Career" style="padding-top:20px;">
+<section class="box6" id="Career">
   <class="container-fluid">
     <div class="row">
     <div class="col-lg-6">
-      <div class="heading">
       <h2><center>CAREER</center></h2>
-    </div>
-      <div class="form-group" style="width:80%; padding-left:6%;">
+      <div class="form-group" style="width:80%; padding-top:0%; padding-left:5%">
          <p>
            You can contact us directly contactus@manomay.biz or send your interest by filling in the form below
          </p>
@@ -390,9 +382,7 @@ Our focus is to understand how your current business is transacted, how does the
 </div>
 </div>
 <div class="col-lg-6" style="padding-right:5%">
-  <div class="heading">
   <h2><Center>CONTACT</Center></h2>
-</div>
 <p>Thank you for visiting our web site. We hope you have gained insight into our passion and commitment for Aligning Technology RIGHT with Business.</p>
 <p> We hope to meet and work with you someday. Meanwhile, if we have ignited your curiosity to know more about us and if you think we can assist you, in any way, please let us know - nothing can be more exciting for us.</p>
 <p><strong>CEO: Krishna Kumari Datla</strong></p>
@@ -418,7 +408,7 @@ Telangana, INDIA - 500 034
 </div>
 <div class="box7" id="footer">
   <class="brand">
-  <a href="https://www.facebook.com/pages/Manomay-Consultancy-Services-India-Pvt-Ltd/488271257966898" style="color:#ade8f4"; "title="Like us on facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.facebook.com/pages/Manomay-Consultancy-Services-India-Pvt-Ltd/488271257966898" style="color:#ade8f4;" "title="Like us on facebook"><i class="fab fa-facebook-f"></i></a>
   <a href="#" style="color:#ade8f4; "title="Youtube"><i class="fab fa-youtube"></i>
   <a href="https://twitter.com/ManomayInfo" style="color:#ade8f4;" title="Follow us on Twitter"> <i class="fab fa-twitter"></i></a>
   <a href="http://www.linkedin.com/company/manomay-consultancy-services-india-pvt-ltd?trk=biz-companies-cym" style="color:#ade8f4;" title="Connect with us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -428,3 +418,134 @@ Telangana, INDIA - 500 034
   </section>
   </body>
 </html>
+
+
+
+STYLE SHEET:
+
+body {
+}
+.box1{
+  width :100%;
+
+  background-color: #caf0f8;
+  color:#023e8a;
+}
+.logo{
+  padding-left: 50px;
+  padding-top:50px;
+  padding-bottom: 7px;
+  padding-right: 50px;
+}
+.logocontent{
+  padding: 0px 150px;
+}
+.box2{
+  width :100%;
+  color: #03045e;
+  background-color: #90e0ef;
+}
+.Aboutcontent{
+  padding : 20px 25px;
+}
+
+h2{
+  padding-bottom: 2%;
+  text-align: center;
+}
+p{
+  margin: 0px  0px;
+}
+h5{
+  padding-top: 3%;
+}
+.consulting{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.Strategy{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.prepare{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+.implement{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+.measure{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+.manage{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+.box3{
+  width: 100%;
+  background-color:#ade8f4;
+color: #03045e;
+}
+.pro{
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top:3%;
+  padding-bottom:3%;
+}
+.mantra{
+  height: 70px;
+  width: 100px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.box4{
+  width:100%;
+   padding: 10px 25px;
+  background-color:#90e0ef;
+  color: #03045e;
+}
+.box5{
+  padding: 10px 25px;
+  width: 100%;
+color: #03045e;
+  background-color:#48bfe3;
+}
+.box6{
+  width: 100%;
+  background-color:#90e0ef;
+padding-top: 3%;
+color: #03045e;
+}
+.add{
+  max-width:60%;
+}
+
+#footer{
+  width: 100%;
+  background-color:#0096c7;
+  height: 70px;
+  text-align:center;
+  color: #ade8f4;
+}
+.call{
+  line-height: 0.75rem;
+}
+.brand{
+  padding-top:5%;
+}
+
